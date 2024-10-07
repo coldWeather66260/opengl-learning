@@ -5,7 +5,7 @@ target("opengl")
     add_files("glad/src/*.c")
     add_includedirs("glad/include")
 
-    add_files("src/*.cpp")
+    add_files("src/*.cpp","src/chapter/*.cpp")
     set_languages("c++20")
     add_packages("glfw")
     -- set_runargs("output-texture.png","texture")
